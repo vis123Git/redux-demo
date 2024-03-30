@@ -1,0 +1,18 @@
+.navbar {
+  color: #fff;
+  background-color: #f05a22;
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+}
+.nav-links {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 50px;
+  color: #f05a22;
+  background-color: #fff;
+}

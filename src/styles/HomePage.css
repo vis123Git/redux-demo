@@ -1,0 +1,40 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
+  border: 1px solid red;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 2px solid green;
+
+}
+.postCard {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: white;
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .postCard {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .postCard {
+    width: calc(33.333% - 1rem);
+  }
+}

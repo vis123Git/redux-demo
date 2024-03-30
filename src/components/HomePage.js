@@ -43,12 +43,9 @@ const HomePage = () => {
               <span class="material-symbols-outlined">search</span>
               <input type="text" placeholder="Search here..."></input>
             </div>
-            </div>
-            <div className="main-container">
-              <h1>Posts</h1>
-              {content}
-            
+            <h1>Posts</h1>
           </div>
+          <div className="main-container">{content}</div>
         </div>
       </div>
     </>
